@@ -14,7 +14,7 @@ Implementé el camino crítico que necesita la app cliente — login, dashboard 
 
 ## API a la que se conecta
 
-Ninguna — es standalone, habla directo con su propia base SQL Server LocalDB vía ADO.NET. Es esta misma API la que consume [`AppVendedores2025-Demo`](../AppVendedores2025-Demo) como backend (ver "Proyecto relacionado" más abajo).
+Ninguna — es standalone, habla directo con su propia base SQL Server LocalDB vía ADO.NET. Es esta misma API la que consume [`AppVendedores2025-Demo`](https://github.com/LenoviMAD/AppVendedores2025-Demo) como backend (ver "Proyecto relacionado" más abajo).
 
 ## Requisitos
 
@@ -70,7 +70,7 @@ curl http://localhost:5101/DashboardEcom/1/1/1 \
   -H "Authorization: Bearer <token>"
 ```
 
-O directamente con la app cliente: [`AppVendedores2025-Demo`](../AppVendedores2025-Demo), ya apuntada a `http://localhost:5101`.
+O directamente con la app cliente: [`AppVendedores2025-Demo`](https://github.com/LenoviMAD/AppVendedores2025-Demo), ya apuntada a `http://localhost:5101`.
 
 ## Proyecto relacionado
 
